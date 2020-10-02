@@ -1,0 +1,25 @@
+{
+  "name": "aniradar-soloproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines":{
+    "node":"14"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jikan-nodejs": "^0.1.0",
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.50.0",
+    "request": "^2.88.2",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
